@@ -1,0 +1,19 @@
+references:
+1) https://blog.csdn.net/a130737/article/details/44136583
+2)
+
+摘抄：
+1）内排序的sort methods
+(1)bubber sort 
+(2)Insertion sort
+(3)quick sort
+(4)heap sort
+(5)merge sort
+(6)radix sort
+(7)selection sort
+
+2) why external sort
+(1) 相比于外排序， 我们之前学的内排序（internal sort）， 就是能够在计算机的内存中直接完成排序任务的算法
+(2) 我们知道， 对于几百万个ints进行排序， okay， 你不用担心你的栈内存， 你的电脑内存足以应对。 但是当你有billions of numbers的时候， 例如10 billion, 此时你的电脑就可能crash掉了。 那么如何排序呢？？？ 解决办法就是采用divide and conquer!! 这就是外排序的思想所在。
+ 
+2）
